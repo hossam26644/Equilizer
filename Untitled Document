@@ -1,0 +1,38 @@
+		NewArray[0:length/22] = (FourierArray[0*length/22:1*length/22].copy())
+		NewArray[1*length/22:2*length/22] = (FourierArray[1*length/22:2*length/22].copy())*self.twenty.value()
+		NewArray[2*length/22:3*length/22] = (FourierArray[2*length/22:3*length/22].copy())*self.eighteen.value()
+		NewArray[3*length/22:4*length/22] = (FourierArray[3*length/22:4*length/22].copy())*self.fourteen.value()
+		NewArray[4*length/22:5*length/22] = (FourierArray[4*length/22:5*length/22].copy())*self.twelve.value()
+		NewArray[5*length/22:6*length/22] = (FourierArray[5*length/22:6*length/22].copy())*self.twelve.value()
+		NewArray[6*length/22:7*length/22] = (FourierArray[6*length/22:7*length/22].copy())*self.ten.value()
+		NewArray[7*length/22:8*length/22] = (FourierArray[7*length/22:8*length/22].copy())*self.eight.value()
+		NewArray[8*length/22:9*length/22] = (FourierArray[8*length/22:9*length/22].copy())*self.six.value()
+		NewArray[9*length/22:10*length/22] = (FourierArray[9*length/22:10*length/22].copy())*self.four.value()
+		NewArray[10*length/22:11*length/22] = (FourierArray[10*length/22:11*length/22].copy())*self.two.value()
+
+		NewArray[11*length/22:12*length/22] = NewArray[10*length/22:11*length/22]
+		NewArray[12*length/22:13*length/22] = NewArray[9*length/22:10*length/22]
+		NewArray[13*length/22:14*length/22] = NewArray[8*length/22:9*length/22]
+		NewArray[14*length/22:15*length/22] = NewArray[7*length/22:8*length/22]
+		NewArray[15*length/22:16*length/22] = NewArray[6*length/22:7*length/22]
+		NewArray[16*length/22:17*length/22] = NewArray[5*length/22:6*length/22]
+		NewArray[17*length/22:18*length/22] = NewArray[4*length/22:5*length/22]
+		NewArray[18*length/22:19*length/22] = NewArray[3*length/22:4*length/22]
+		NewArray[19*length/22:20*length/22] = NewArray[2*length/22:3*length/22]
+		NewArray[20*length/22:21*length/22] = NewArray[1*length/22:2*length/22]
+		NewArray[21*length/22:22*length/22] = NewArray[0:(length/22)+1]
+
+'''
+		NewArray[0:length/22] = (FourierArray[0*length/22:1*length/22].copy())*self.two.value()
+		NewArray[1*length/22:2*length/22] = (FourierArray[1*length/22:2*length/22].copy())*self.four.value()
+		NewArray[2*length/22:3*length/22] = (FourierArray[2*length/22:3*length/22].copy())*self.six.value()
+		NewArray[3*length/22:4*length/22] = (FourierArray[3*length/22:4*length/22].copy())*self.eight.value()
+		NewArray[4*length/22:5*length/22] = (FourierArray[4*length/22:5*length/22].copy())*self.ten.value()
+		NewArray[5*length/22:6*length/22] = (FourierArray[5*length/22:6*length/22].copy())*self.twelve.value()
+		NewArray[6*length/22:7*length/22] = (FourierArray[6*length/22:7*length/22].copy())*self.fourteen.value()
+		NewArray[7*length/22:8*length/22] = (FourierArray[7*length/22:8*length/22].copy())*self.sixteen.value()
+		NewArray[8*length/22:9*length/22] = (FourierArray[8*length/22:9*length/22].copy())*self.eighteen.value()
+		NewArray[9*length/22:10*length/22] = (FourierArray[9*length/22:10*length/22].copy())*self.twenty.value()
+		NewArray[10*length/22:11*length/22] = (FourierArray[10*length/22:11*length/22].copy())
+'''
+
